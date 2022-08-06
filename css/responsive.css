@@ -122,7 +122,6 @@
 
   .right .top {
     align-items: center;
-    justify-content: end;
     background-color: var(--color-white);
     position: fixed;
     top: 0;
@@ -142,6 +141,13 @@
 
   .right .profile .info {
     display: none;
+  }
+
+  .right .profile .profile-photo {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
   }
 
   .right .top button {
