@@ -56,13 +56,20 @@
 
   aside {
     position: fixed;
-    left: 0;
+    left: -100%;
     background-color: var(--color-white);
     padding-right: var(--card-padding);
     width: 18rem;
     box-shadow: 1rem 3rem 4rem var(--color-light);
     z-index: 3;
     display: none;
+    animation: showMenu 400ms ease forwards;
+  }
+
+  @keyframes showMenu {
+    to {
+      left: 0;
+    }
   }
 
   aside .logo {

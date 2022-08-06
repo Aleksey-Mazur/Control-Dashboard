@@ -213,7 +213,9 @@ main .date input[type='date'] {
   background-color: transparent;
   border: none;
   color: var(--color-dark);
+  font-weight: bold;
   outline: none;
+  text-transform: uppercase;
 }
 
 main .insights {
@@ -486,7 +488,13 @@ main .recent-orders a {
   background-color: transparent;
   border: 2px dashed var(--color-primary);
   color: var(--color-primary);
+  cursor: pointer;
   justify-content: center;
+}
+
+.right .sales-analytics .add-product:hover {
+  background-color: var(--color-primary);
+  color: #fff;
 }
 
 .right .sales-analytics .add-product div {
